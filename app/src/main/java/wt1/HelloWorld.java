@@ -1,4 +1,3 @@
-package com.example;
 
 import java.io.*;
 import javax.servlet.*;
@@ -13,7 +12,6 @@ public class HelloWorld extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.println("<h1> Hello World </h1>");
-        // not runing
     }
 
     public void destroy() {
